@@ -13,10 +13,50 @@
         <hr>
     </header>
     <nav>
-        <a href="tentang.html">Tentang Founder</a>
-        <a href="produk.html">Katalog Jasa & Paket Harga</a>
-    </nav>
+        <a href="biodata.html">Tentang Founder</a> |
+        <a href="produk.html">Katalog Jasa & Paket Harga</a> |
+        <a href="kontak.html">Kontak Kami</a> |
+
+    </nav> 
     <hr>
+
+    <main>
+        <h2>Formulir Pemesanan Jasa & Layanan Pelanggan</h2>
+        <p>SIlahkan isi formulir di bawah ini untuk mengajukan pemesanan 
+        paket jasa atau berkonsultasi dengan tim kami</p>
+        
+        <form action="#" method="POST">
+            <!-- Grup 1 : Data diri pelanggan -->
+             <Fieldset>
+                <legend><b>1. Informasi Identitas Pemesan</b></legend>
+                <br>
+                <label for="nama_lengkap">Nama lengkap / Instansi :</label><br>
+                <input type="text" id="nama_lengkap" name="nama_lengkap"
+                placeholder="Contoh : Deanno Airlangga" size="40" required>
+                <br><br>
+
+                <label for="emai_pesanan">Alamat Email Aktif:</label><br>
+                <input type="email" id="email_pesanan" name="email_pesanan" placeholder="nama@domain.com" size="40" required>
+                <br><br>
+
+                <label for="no_whatsapp">Nomor Whatsapp :</label><br>
+                <input type="tel" name="no_whatsapp id="no_whatsapp" placeholder="08311729613" required>
+                <br><br>
+
+                <label>Tipe Kategori Klien:</label><br>
+                <input type="radio" id="kategori_personal" name="tipe_klien" value="Korporat">
+                <label for="kategori_korporat">Perusahaan / Instansi Pemerintahan</label>
+                <input type="radio" id="kategori_personal" name="tipe_klien" value="Korporat">
+                <label for="kategori_korporat">Pengusaha UMKM / Perorangan</label>
+                <br><br>
+
+             </Fieldset>
+             <!-- Grup 2: Detail Pemesanan Pelayan -->
+              <fieldset>
+                <legend><b>2. Rincian Pemesanan Jasa Digital</b></legend>
+              </fieldset>
+        </form>
+    </main>
     <section>
         <h2>Portofolio & Karya Unggulan Kami</h2>
 
@@ -31,7 +71,7 @@
          <p>
             <h3>Video Profil Bisnis Kami</h3>
             <iframe width="560" height="315"
-                    src="https://youtu.be/embed/dQw4w9WgXcQ"
+                    src="https://youtu.be/dQw4w9WgXcQ?si=q9I7JV8yDU3NRxnK"
                     title="Youtube video player" frameboard="0"
                     allow="accelerometer; autoplay; clipboard-write; encrptyed-media; gyroscope"
                     allowfullscreen>
